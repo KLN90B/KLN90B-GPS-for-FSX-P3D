@@ -1,0 +1,128 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+BMP_KLN90B_BACKGROUND   BITMAP                  "res\\kln-90B_main.bmp"
+BMP_KLN90B_BLANK        BITMAP                  "res\\kln-90B_crtdisp.bmp"
+BMP_KLN90B_PULLIN       BITMAP                  "res\\kln-90B_pullin.bmp"
+BMP_KLN90B_PULLOUT      BITMAP                  "res\\kln-90B_pullout.bmp"
+BMP_KLN90B_APON	        BITMAP                  "res\\kln-90B_apoff.bmp"
+BMP_KLN90B_APOFF        BITMAP                  "res\\kln-90B_apon.bmp"
+
+//BMP_TABLO_BACKGROUND    BITMAP                  "res\\tablo_back.bmp"
+//BMP_TABLO_MSGOFF        BITMAP                  "res\\tablo_msg_off.bmp"
+//BMP_TABLO_MSGON         BITMAP                  "res\\tablo_msg_on.bmp"
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+#ifdef KLN_FOR_USSS
+IDD_DIALOG1 DIALOGEX 0, 0, 316, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close Dialog",IDOK,246,166,50,14
+    LISTBOX         IDC_LIST2,9,20,288,47,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Djoystick's system name:",IDC_STATIC,10,10,91,10
+    LISTBOX         IDC_LIST3,9,83,100,34,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Djoy's buttons:",IDC_STATIC,10,73,50,8
+    LISTBOX         IDC_LIST4,167,83,131,34,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "Input Events:",IDC_STATIC,169,74,45,8
+    LTEXT           "Select  djoystick  name,  select  button  of  djoystick  and do double click on the input event  type  to assign  doystick's  butons  to  KLN90B buttons and knobs. Press Clear button  to  clear  the  mapping.",
+                    IDC_STATIC,21,125,274,26
+    EDITTEXT        IDC_EDIT1,7,188,302,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Clear",IDC_BUTTON1,114,84,24,32,BS_VCENTER
+    LTEXT           "Status window:",IDC_STATIC,9,178,50,8
+    LTEXT           "Press  a  button on a djoystick and see to the status window to find out what button on djoystick has their name in configuration program.",
+                    IDC_STATIC,21,148,272,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+END
+#endif    // APSTUDIO_INVOKED
+#endif
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

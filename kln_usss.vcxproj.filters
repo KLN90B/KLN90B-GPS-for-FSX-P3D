@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{462c1358-7fa3-426a-8853-2415d713164c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Core">
+      <UniqueIdentifier>{feb1b48b-4df7-4f2d-94a3-c5620f2706bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\FSX">
+      <UniqueIdentifier>{d3189fdf-a370-4a2a-9b56-7a6dc54171ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="act_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apt_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calc_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="check_db.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="di_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dt_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dto_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="int_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kln90b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kln_usss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mode_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nav_db.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nav_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navigation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ndb_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oth_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="power_on.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Regexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="set_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sid_star.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sim_gps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="status_line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sup_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usr_points.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vnav.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vor_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\DateTime.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\Exception.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\FileSystem.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\IniFile.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\Logger.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\String.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\VersionInfo.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Core\WriterASCII.cpp">
+      <Filter>Lib\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\FSX\FSXKeyHandler.cpp">
+      <Filter>Lib\FSX</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\FSX\Measure.cpp">
+      <Filter>Lib\FSX</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\FSX\SimConnectWrapper.cpp">
+      <Filter>Lib\FSX</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\FSX\SimVars.cpp">
+      <Filter>Lib\FSX</Filter>
+    </ClCompile>
+    <ClCompile Include="PCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navdata_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navdata_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navdata_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="apt7_pages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navdata_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navdata_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bglzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="calc_pages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dilib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs_gauge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fslib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gps_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kln90b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nav_db.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Regexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sid_star.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vnav.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\DateTime.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\Exception.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\FileSystem.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\Helpers.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\IniFile.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\Logger.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\String.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\VersionInfo.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Core\WriterASCII.h">
+      <Filter>Lib\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\FSX\FSXKeyHandler.h">
+      <Filter>Lib\FSX</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\FSX\Measure.h">
+      <Filter>Lib\FSX</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\FSX\SimConnectWrapper.h">
+      <Filter>Lib\FSX</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\FSX\SimVars.h">
+      <Filter>Lib\FSX</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimConnect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="navdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="kln90b.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
